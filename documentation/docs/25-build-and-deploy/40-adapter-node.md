@@ -52,7 +52,7 @@ npm install dotenv
 
 ```diff
 -node build
-+node -r dotenv/config build
++node -r=dotenv/config build
 ```
 
 ### `PORT`, `HOST` and `SOCKET_PATH`
